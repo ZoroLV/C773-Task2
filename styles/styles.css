@@ -1,0 +1,405 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Header elements */
+
+header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: #fff;
+}
+
+.header-image {
+	padding-left: 1.5rem;
+}
+
+.header-image img {
+	height: 7rem;
+}
+
+.header-text {
+	padding-left: 1.5rem;
+	font-size: 0.9rem;
+}
+
+/* User tool elements */
+
+.tools-container {
+	position: absolute;
+   	top: 1rem;
+   	right: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 10rem;
+	padding-right: 1rem;
+	border: 1px solid #003b6d;
+	background-color: #bdbdbd;
+	padding: 0.7rem;
+	border-radius: 10px;
+}
+
+.tools-container a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* Navigation elements */
+
+nav {
+	padding: 0.2rem;
+	background-color: #003b6d;
+	height: 2.3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: #fff;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.selected {
+	padding-top: 0.1rem;
+	border-top: 5px solid #6699cc;
+	border-bottom: 5px solid #6699cc;
+	border-radius: 8px;
+}
+
+/* Search elements */
+
+.search {
+	padding-right: 0.3rem;
+	display: flex;
+	align-items: center;
+}
+
+.search input {
+	border: none;
+	height: 25px;
+	outline: 0;
+	padding: 0.5rem;
+}
+
+.search button {
+	border: none;
+	background-color: #003b6d;
+	color: #fff;
+	padding: 0.5rem;
+}
+
+/* Contact elements */
+
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin: 2rem;
+	color: #003b6d;
+	width: 30%;
+	top: 10rem;
+	margin-right: 10rem;
+}
+
+.contact-container form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-container form label {
+	padding-top: 1.2rem;
+}
+
+.contact-container form input {
+	padding: 0.5rem;
+	border: 1px solid #003b6d;
+	border-radius: 5px;
+}
+
+.contact-container select {
+	padding: 0.5rem;
+	border: 1px solid #003b6d;
+	border-radius: 5px;
+	width: 30%;
+}
+
+.contact-container button {
+	padding: 0.5rem;
+	border: 1px solid #003b6d;
+	border-radius: 5px;
+	background-color: #003b6d;
+	color: #fff;
+	margin-top: 1.2rem;
+}
+
+.contact-container button:hover {
+	background-color: #175a9c;
+}
+
+.contact-info-container {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin: 2rem;
+	color: #003b6d;
+	width: 40%;
+	height: 50%;
+}
+
+.map {
+	padding-top: 2rem;
+}
+
+.map-info {
+	padding-top: 1.2rem;
+}
+
+.contact-methods-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* General elements */
+
+.landing {
+	display: flex;
+	color: #003b6d;
+}
+
+.landing-image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 5rem;
+	margin-right: 6rem;
+}
+
+.landing-info-container {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin-left: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.landing-info-container ul {
+	padding: 1.2rem;
+	font-size: 1.1rem;
+	font-style: italic;
+}
+
+.landing-image-container img {
+	border: 2px solid #003b6d;
+	border-radius: 5%;
+	height: 15rem;
+}
+
+.landing-info-container p {
+	font-size: 1.1rem;
+	padding-top: 1.2rem;
+}
+
+.landing-info-container h1 {
+	font-size: 2.3rem;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	line-height: 1.5;
+}
+
+/* Brand elements */
+
+.brand-info-container {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin: 2rem;
+	color: #003b6d;
+}
+
+.brand-info-container h1 {
+	font-size: 2.3rem;
+}
+
+.brand-info-container p {
+	font-size: 1.1rem;
+	padding-top: 1.2rem;
+}
+
+/* Animal page elements */
+
+.care-info-container {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin: 2rem;
+	color: #003b6d;
+}
+
+.care-info-container h1 {
+	font-size: 2.3rem;
+}
+
+.care-info-container h2 {
+	font-size: 1.3rem;
+	padding-top: 1.2rem;
+}
+
+.care-info-container p {
+	font-size: 1.1rem;
+	padding-top: 1.2rem;
+}
+
+.care-images-container img {
+	border: 2px solid #003b6d;
+	border-radius: 5%;
+	height: 17rem;
+	margin: 2rem;
+}
+
+.care-images-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.care-info-container ul {
+	padding: 1.2rem;
+	font-size: 1.1rem;
+	font-style: italic;
+}
+
+/* Adoption elements */
+
+.adoption {
+	display: flex;
+	color: #003b6d;
+}
+
+.adoption-info-container {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	border-radius: 15px;
+	padding: 2rem;
+	margin-left: 2rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	color: #003b6d;
+}
+
+.adoption-image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 5rem;
+	margin-right: 6rem;
+}
+
+.adoption-image-container img {
+	border: 2px solid #003b6d;
+	border-radius: 5%;
+	height: 17rem;
+}
+
+.adoption-info-container h1 {
+	font-size: 2.3rem;
+}
+
+.adoption-info-container h2 {
+	font-size: 1.3rem;
+}
+
+.adoption-info-container p {
+	font-size: 1.1rem;
+	padding-top: 1.2rem;
+}
+
+.adoption-info-container a {
+	text-decoration: none;
+	color: #003b6d;
+	background-color: #fff;
+	padding: 0.5rem;
+	border: 2px solid #003b6d;
+	border-radius: 5px;
+	justify-content: space-between;
+	margin: 0.3rem;
+}
+
+.adoption-links {
+	margin-top: 1rem;
+}
+
+.adoption-info-container a:hover {
+	background-color: #003b6d;
+	color: #fff;
+}
+
+/* Footer elements */
+
+footer {
+	background-color: #003b6d;
+	height: 3rem;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.social-media {
+	display: flex;
+}
+
+.social-media a {
+	color: #fff;
+	padding: 0.5rem;
+	width: 2rem;
+	height: 2rem;
+	padding-left: 3rem;
+}
+
+.social-media a:hover {
+	color: #003b6d;
+}
+
+.social-media a i {
+	font-size: 1.5rem;
+}
